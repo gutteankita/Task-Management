@@ -56,14 +56,7 @@ class Dashboard extends Component {
 
   }
 
-  // handleTaskClick = (task) => {
-  //   console.log("Task clicked:", task);
-  //   this.setState({ selectedTask: task });
-  // };
 
-  // handleCloseDetails = () => {
-  //   this.setState({ selectedTask: null });
-  // };
 
   editTask = (task) => {
     const { title, description, status, assign } = task;
@@ -277,8 +270,8 @@ class Dashboard extends Component {
 
   render() {
     const { todoList, inProgressList, completedList, title, description,
-       selectedStatus, selectedAssign, selectedDate, isEditFormOpen, editingTask,
-        titleError, descriptionError, dateError} = this.state;
+      selectedStatus, selectedAssign, selectedDate, isEditFormOpen, editingTask,
+      titleError, descriptionError, dateError } = this.state;
 
 
 
@@ -456,21 +449,21 @@ class Dashboard extends Component {
 
             <div className='render-tasks'>
               <ToDo inputList={todoList} deleteTask={this.deleteTask}
-               editTask={this.editTask} />
+                editTask={this.editTask} />
               <InProgress inputList={inProgressList} deleteTask={this.deleteTask} editTask={this.editTask} />
               <Completed inputList={completedList} deleteTask={this.deleteTask} editTask={this.editTask} />
             </div>
 
             {/* {selectedTask && (
-  <TaskDetails task={selectedTask} onClose={this.handleCloseDetails} />
-)} */}
+           <TaskDetails task={selectedTask} onClose={this.handleCloseDetails} />
+            )} */}
 
           </div>
 
-          
+
         </div>
 
-        
+
       </>
     );
   }

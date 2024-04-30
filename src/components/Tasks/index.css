@@ -1,4 +1,4 @@
-.task-container {
+/* .task-container {
     
     display: flex;
     flex-wrap: wrap;
@@ -57,30 +57,27 @@
 .description {
     font-size: 15px;
     font-family: "Roboto";
-    /* color: rgb(84, 75, 75); */
     margin-top: 10px;
+    
 }
 .date {
     font-size: 15px;
     font-family: "Roboto";
-    /* color: rgb(84, 75, 75); */
     margin-top: 10px;
 }
 .status {
     font-size: 16px;
     font-family: "Roboto";
-    /* color: rgb(84, 75, 75); */
     margin-top: 10px;
 }
 .assign {
     font-size: 18px;
     font-family: "Roboto";
-    /* color: rgb(84, 75, 75); */
         margin-top: 10px;
 }
 
 
 
 .task-card.highlight {
-    background-color: lightyellow; /* Change background color for highlighted tasks */
-  }
+    background-color: lightyellow;
+  } */
