@@ -1,0 +1,86 @@
+.task-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.task-card {
+    
+    background-color: white;
+    min-height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 6px;
+    border-top: 3px solid rgb(176, 176, 248);
+    margin: 10px;
+    padding: 10px;
+    
+}
+.title-heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-heading {
+    display: flex;
+    align-items: center;
+}
+.btns {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.edit-icon {
+    color: #4086CB;
+    font-size: 20px;
+}
+.delete-icon {
+    color: rgb(242, 43, 43);
+    font-size: 22px;
+} 
+.bullets {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: rgb(66, 112, 238);
+    margin-right: 7px;
+}
+.title {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 32, 32);
+}
+.description {
+    font-size: 15px;
+    font-family: "Roboto";
+    /* color: rgb(84, 75, 75); */
+    margin-top: 10px;
+}
+.date {
+    font-size: 15px;
+    font-family: "Roboto";
+    /* color: rgb(84, 75, 75); */
+    margin-top: 10px;
+}
+.status {
+    font-size: 16px;
+    font-family: "Roboto";
+    /* color: rgb(84, 75, 75); */
+    margin-top: 10px;
+}
+.assign {
+    font-size: 18px;
+    font-family: "Roboto";
+    /* color: rgb(84, 75, 75); */
+        margin-top: 10px;
+}
+
+
+
+.task-card.highlight {
+    background-color: lightyellow; /* Change background color for highlighted tasks */
+  }

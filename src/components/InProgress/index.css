@@ -1,0 +1,15 @@
+.inprogress-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.bullet-brown {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: rgb(221, 221, 82);
+    margin-right: 6px;
+    margin-left: 6px;
+}

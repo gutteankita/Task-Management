@@ -1,0 +1,104 @@
+.main-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(233, 232, 232);
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-container {
+   
+    flex: 1;
+  margin-left: 250px;
+  padding-top: 90px; 
+  overflow-y: auto; 
+
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    min-height: 200px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.input {
+    border-radius: 5px;
+    padding: 3px;
+    outline: none;
+    width: 90%;
+    font-size: 16px;
+    color: rgb(170, 164, 164);
+    border: 1px solid rgb(186, 185, 185);
+}
+
+.label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+
+.add-btn {
+
+    background-color: #4086CB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: block;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.updates-btn {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.update {
+    background-color: rgb(143, 241, 143);
+    margin-right: 5px;
+}
+
+.cancel {
+    background-color: rgb(230, 103, 103);
+}
+
+.error-message {
+    color: rgb(243, 26, 26);
+}
+
+.render-tasks {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.form-chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
